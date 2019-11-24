@@ -6,7 +6,8 @@ const parseArray = (arr, newData, isAsk) => {
   let total = 0
 
   newData.forEach(e => {
-    if (Number(e[1]) === 0) {
+    if (e[3]) return
+    if (Number(Number(e[1])) === 0) {
       remove(newArray, n => n[0] === e[0])
     } else if (findIndex(newArray, elem => elem[0] === e[0]) >= 0) {
       const index = findIndex(newArray, elem => elem[0] === e[0])
@@ -17,12 +18,12 @@ const parseArray = (arr, newData, isAsk) => {
     }
   })
 
-  sortBy(newArray, e => Number(e[0]))
+  const sortedArray = sortBy(newArray, e => Number(e[0]))
 
-  return newArray.map(e => [
-    isAsk ? Number(e[1]).toFixed(1) : Number(e[0]).toFixed(4),
+  return sortedArray.map(e => [
+    isAsk ? Number(e[1]).toFixed(1) : Number(e[0]).toFixed(5),
     (total += Number(e[1])).toFixed(1),
-    isAsk ? Number(e[0]).toFixed(4) : Number(e[1]).toFixed(1),
+    isAsk ? Number(e[0]).toFixed(5) : Number(e[1]).toFixed(1),
   ])
 }
 

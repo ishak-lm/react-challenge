@@ -22,6 +22,7 @@ const Books = () => {
           pair: kraken.pair,
           subscription: {
             name: 'book',
+            depth: 25,
           },
         }),
       )
