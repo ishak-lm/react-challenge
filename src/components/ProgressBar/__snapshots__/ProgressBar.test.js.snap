@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` 1`] = `
+<ProgressBar
+  color="red"
+  left={false}
+  right={true}
+  width={47}
+>
+  <styled.div
+    color="red"
+    left={false}
+    right={true}
+    width={47}
+  >
+    <StyledComponent
+      color="red"
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "evQXqx",
+            "rules": Array [
+              "
+  position: absolute;
+  width: ",
+              [Function],
+              ";
+  height: 25px;
+  background-color: ",
+              [Function],
+              ";
+  right: ",
+              [Function],
+              ";
+  left: ",
+              [Function],
+              ";
+  z-index: 0;
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      left={false}
+      right={true}
+      width={47}
+    >
+      <div
+        className="sc-bdVaJa evQXqx"
+        color="red"
+        width={47}
+      />
+    </StyledComponent>
+  </styled.div>
+</ProgressBar>
+`;
