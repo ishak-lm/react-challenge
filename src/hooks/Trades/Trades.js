@@ -14,9 +14,9 @@ const Trades = () => {
       client.send(
         JSON.stringify({
           event: 'subscribe',
-          pair: ['MLN/BTC'],
+          pair: kraken.pair,
           subscription: {
-            name: 'book',
+            name: 'trade',
           },
         }),
       )
@@ -26,7 +26,7 @@ const Trades = () => {
       const data = JSON.parse(e.data)
 
       if (Array.isArray(data)) {
-        setTrades(oldArray => [...oldArray, data[1][0]])
+        setTrades(oldArray => [...oldArray, data[1][0].slice(0, 3)])
       }
     }
 
