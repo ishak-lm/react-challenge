@@ -10,6 +10,9 @@ const Li = styled.li`
 
 const Span = styled.span`
   z-index: 1;
+  font-size: 12px;
+  width: 50px;
+  text-align: right;
 `
 
 export default {

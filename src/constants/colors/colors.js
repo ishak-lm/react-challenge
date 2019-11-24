@@ -1,7 +1,7 @@
 const colors = {
   progressBar: {
-    green: '20, 30, 19',
-    red: '42, 16, 20',
+    green: '34,139,34',
+    red: '205,92,92',
   },
   text: {
     grey: 'grey',

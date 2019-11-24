@@ -38,6 +38,7 @@ const Ul = styled.ul`
   margin: 0;
   width: 100%;
   height: 800px;
+  overflow: auto;
 `
 
 export default {
