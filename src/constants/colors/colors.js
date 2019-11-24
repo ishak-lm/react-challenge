@@ -4,6 +4,7 @@ const colors = {
     red: '42, 16, 20',
   },
   text: {
+    grey: 'grey',
     listElem: '156, 162, 164',
     title: '255, 255, 255',
   },

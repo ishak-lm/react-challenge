@@ -1,9 +1,14 @@
 import { useState, useEffect } from 'react'
 
+// Constants
 import { kraken } from '../../constants'
 
-const Trades = () => {
-  const [trades, setTrades] = useState([])
+// helpers
+import { parseArray } from '../../helpers'
+
+const Books = () => {
+  const [ask, setAsk] = useState([])
+  const [bid, setBids] = useState([])
 
   // const client = new WebSocket(kraken.subsribeUrl)
 
@@ -16,7 +21,7 @@ const Trades = () => {
   //         event: 'subscribe',
   //         pair: kraken.pair,
   //         subscription: {
-  //           name: 'trade',
+  //           name: 'book',
   //         },
   //       }),
   //     )
@@ -26,7 +31,13 @@ const Trades = () => {
   //     const data = JSON.parse(e.data)
 
   //     if (Array.isArray(data)) {
-  //       setTrades(oldArray => [...oldArray, data[1][0].slice(0, 3)])
+  //       if (data[1].as) setAsk(oldArray => parseArray(oldArray, data[1].as))
+
+  //       if (data[1].bs) setBids(oldArray => parseArray(oldArray, data[1].bs))
+
+  //       if (data[1].a) setAsk(oldArray => parseArray(oldArray, data[1].a))
+
+  //       if (data[1].b) setBids(oldArray => parseArray(oldArray, data[1].b))
   //     }
   //   }
 
@@ -43,7 +54,7 @@ const Trades = () => {
   //   }
   // }, [])
 
-  return trades
+  return { ask, bid }
 }
 
-export default Trades
+export default Books
