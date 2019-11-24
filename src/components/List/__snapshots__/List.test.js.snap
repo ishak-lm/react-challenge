@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` 1`] = `
+<List>
+  <styled.ul>
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "bEafGP",
+            "rules": Array [
+              "
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 380px;
+  height: 800px;
+  background-color: rgb(",
+              "29, 38, 44",
+              ");
+",
+            ],
+          },
+          "displayName": "styled.ul",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "ul",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <ul
+        className="sc-bdVaJa bEafGP"
+      >
+        <li>
+          Hello
+        </li>
+      </ul>
+    </StyledComponent>
+  </styled.ul>
+</List>
+`;
