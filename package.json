@@ -7,7 +7,7 @@
     "run:test": "react-scripts test",
     "run:linter": "eslint src/**/*.js",
     "fix:linter": "eslint src/**/*.js --fix",
-    "test:husky": "CI=true yarn test && yarn run:linter",
+    "test:husky": "CI=true yarn run:test && yarn run:linter",
     "run:storybook": "start-storybook -p 9009 -s public",
     "build:storybook": "build-storybook -s public"
   },
