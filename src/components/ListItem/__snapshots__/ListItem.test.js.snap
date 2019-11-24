@@ -1,0 +1,241 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` 1`] = `
+<ListItem
+  color="green"
+  data={
+    Array [
+      "234",
+      "235",
+      "34",
+    ]
+  }
+  left={false}
+  right={false}
+  width={100}
+>
+  <styled.li>
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "rAcOg",
+            "rules": Array [
+              "
+  height: 25px;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  align-items: center;
+",
+            ],
+          },
+          "displayName": "styled.li",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "li",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <li
+        className="sc-bdVaJa rAcOg"
+      >
+        <ProgressBar
+          color="green"
+          left={false}
+          right={false}
+          width={100}
+        >
+          <styled.div
+            color="green"
+            left={false}
+            right={false}
+            width={100}
+          >
+            <StyledComponent
+              color="green"
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-htpNat",
+                    "isStatic": false,
+                    "lastClassName": "kHwASY",
+                    "rules": Array [
+                      "
+  position: absolute;
+  width: ",
+                      [Function],
+                      ";
+  height: 25px;
+  background-color: ",
+                      [Function],
+                      ";
+  right: ",
+                      [Function],
+                      ";
+  left: ",
+                      [Function],
+                      ";
+  z-index: 0;
+",
+                    ],
+                  },
+                  "displayName": "styled.div",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "sc-htpNat",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+              left={false}
+              right={false}
+              width={100}
+            >
+              <div
+                className="sc-htpNat kHwASY"
+                color="green"
+                width={100}
+              />
+            </StyledComponent>
+          </styled.div>
+        </ProgressBar>
+        <styled.span
+          key="0"
+        >
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bwzfXH",
+                  "isStatic": false,
+                  "lastClassName": "frklHa",
+                  "rules": Array [
+                    "
+  z-index: 1;
+  font-size: 12px;
+  width: 50px;
+  text-align: right;
+",
+                  ],
+                },
+                "displayName": "styled.span",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-bwzfXH",
+                "target": "span",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+          >
+            <span
+              className="sc-bwzfXH frklHa"
+            >
+              234
+            </span>
+          </StyledComponent>
+        </styled.span>
+        <styled.span
+          key="1"
+        >
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bwzfXH",
+                  "isStatic": false,
+                  "lastClassName": "frklHa",
+                  "rules": Array [
+                    "
+  z-index: 1;
+  font-size: 12px;
+  width: 50px;
+  text-align: right;
+",
+                  ],
+                },
+                "displayName": "styled.span",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-bwzfXH",
+                "target": "span",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+          >
+            <span
+              className="sc-bwzfXH frklHa"
+            >
+              235
+            </span>
+          </StyledComponent>
+        </styled.span>
+        <styled.span
+          key="2"
+        >
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bwzfXH",
+                  "isStatic": false,
+                  "lastClassName": "frklHa",
+                  "rules": Array [
+                    "
+  z-index: 1;
+  font-size: 12px;
+  width: 50px;
+  text-align: right;
+",
+                  ],
+                },
+                "displayName": "styled.span",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-bwzfXH",
+                "target": "span",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+          >
+            <span
+              className="sc-bwzfXH frklHa"
+            >
+              34
+            </span>
+          </StyledComponent>
+        </styled.span>
+      </li>
+    </StyledComponent>
+  </styled.li>
+</ListItem>
+`;
