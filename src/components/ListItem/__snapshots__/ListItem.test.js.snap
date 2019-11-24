@@ -70,7 +70,7 @@ exports[` 1`] = `
                   "componentStyle": ComponentStyle {
                     "componentId": "sc-htpNat",
                     "isStatic": false,
-                    "lastClassName": "ekulwv",
+                    "lastClassName": "kHwASY",
                     "rules": Array [
                       "
   position: absolute;
@@ -107,7 +107,7 @@ exports[` 1`] = `
               width={100}
             >
               <div
-                className="sc-htpNat ekulwv"
+                className="sc-htpNat kHwASY"
                 color="green"
                 width={100}
               />
@@ -125,10 +125,13 @@ exports[` 1`] = `
                 "componentStyle": ComponentStyle {
                   "componentId": "sc-bwzfXH",
                   "isStatic": false,
-                  "lastClassName": "gpNWDq",
+                  "lastClassName": "frklHa",
                   "rules": Array [
                     "
   z-index: 1;
+  font-size: 12px;
+  width: 50px;
+  text-align: right;
 ",
                   ],
                 },
@@ -145,7 +148,7 @@ exports[` 1`] = `
             forwardedRef={null}
           >
             <span
-              className="sc-bwzfXH gpNWDq"
+              className="sc-bwzfXH frklHa"
             >
               234
             </span>
@@ -162,10 +165,13 @@ exports[` 1`] = `
                 "componentStyle": ComponentStyle {
                   "componentId": "sc-bwzfXH",
                   "isStatic": false,
-                  "lastClassName": "gpNWDq",
+                  "lastClassName": "frklHa",
                   "rules": Array [
                     "
   z-index: 1;
+  font-size: 12px;
+  width: 50px;
+  text-align: right;
 ",
                   ],
                 },
@@ -182,7 +188,7 @@ exports[` 1`] = `
             forwardedRef={null}
           >
             <span
-              className="sc-bwzfXH gpNWDq"
+              className="sc-bwzfXH frklHa"
             >
               235
             </span>
@@ -199,10 +205,13 @@ exports[` 1`] = `
                 "componentStyle": ComponentStyle {
                   "componentId": "sc-bwzfXH",
                   "isStatic": false,
-                  "lastClassName": "gpNWDq",
+                  "lastClassName": "frklHa",
                   "rules": Array [
                     "
   z-index: 1;
+  font-size: 12px;
+  width: 50px;
+  text-align: right;
 ",
                   ],
                 },
@@ -219,7 +228,7 @@ exports[` 1`] = `
             forwardedRef={null}
           >
             <span
-              className="sc-bwzfXH gpNWDq"
+              className="sc-bwzfXH frklHa"
             >
               34
             </span>

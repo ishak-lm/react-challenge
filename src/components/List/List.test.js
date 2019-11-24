@@ -6,7 +6,7 @@ import List from './List'
 
 describe('List', () => {
   const wrapper = mount(
-    <List>
+    <List title="Story" pair="ETH/BTC">
       <li>Hello</li>
     </List>,
   )

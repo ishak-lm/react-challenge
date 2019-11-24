@@ -22,7 +22,7 @@ exports[` 1`] = `
           "componentStyle": ComponentStyle {
             "componentId": "sc-bdVaJa",
             "isStatic": false,
-            "lastClassName": "evQXqx",
+            "lastClassName": "cdYKsO",
             "rules": Array [
               "
   position: absolute;
@@ -59,7 +59,7 @@ exports[` 1`] = `
       width={47}
     >
       <div
-        className="sc-bdVaJa evQXqx"
+        className="sc-bdVaJa cdYKsO"
         color="red"
         width={47}
       />

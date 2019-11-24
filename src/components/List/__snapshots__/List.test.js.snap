@@ -1,8 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[` 1`] = `
-<List>
-  <styled.ul>
+<List
+  pair="ETH/BTC"
+  title="Story"
+>
+  <styled.div>
     <StyledComponent
       forwardedComponent={
         Object {
@@ -11,25 +14,31 @@ exports[` 1`] = `
           "componentStyle": ComponentStyle {
             "componentId": "sc-bdVaJa",
             "isStatic": false,
-            "lastClassName": "bEafGP",
+            "lastClassName": "fdyzsU",
             "rules": Array [
               "
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
   width: 380px;
-  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: rgb(",
               "29, 38, 44",
               ");
+  margin-bottom: 25px;
+
+  @media (max-width: 400px) {
+    width: 100%;
+    max-width: 380px;
+    min-width: 200px;
+  }
 ",
             ],
           },
-          "displayName": "styled.ul",
+          "displayName": "styled.div",
           "foldedComponentIds": Array [],
           "render": [Function],
           "styledComponentId": "sc-bdVaJa",
-          "target": "ul",
+          "target": "div",
           "toString": [Function],
           "warnTooManyClasses": [Function],
           "withComponent": [Function],
@@ -37,14 +46,162 @@ exports[` 1`] = `
       }
       forwardedRef={null}
     >
-      <ul
-        className="sc-bdVaJa bEafGP"
+      <div
+        className="sc-bdVaJa fdyzsU"
       >
-        <li>
-          Hello
-        </li>
-      </ul>
+        <styled.div>
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bwzfXH",
+                  "isStatic": false,
+                  "lastClassName": "kEpaif",
+                  "rules": Array [
+                    "
+  border-bottom: grey 1px solid;
+  width: 95%;
+  padding: 10px 0px 10px 0px;
+",
+                  ],
+                },
+                "displayName": "styled.div",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-bwzfXH",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+          >
+            <div
+              className="sc-bwzfXH kEpaif"
+            >
+              <styled.span>
+                <StyledComponent
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "sc-htpNat",
+                        "isStatic": false,
+                        "lastClassName": "cszHku",
+                        "rules": Array [
+                          "
+  margin-right: 20px;
+  margin-left: 10px;
+",
+                        ],
+                      },
+                      "displayName": "styled.span",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "sc-htpNat",
+                      "target": "span",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                >
+                  <span
+                    className="sc-htpNat cszHku"
+                  >
+                    Story
+                  </span>
+                </StyledComponent>
+              </styled.span>
+              <styled.span>
+                <StyledComponent
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "sc-bxivhb",
+                        "isStatic": false,
+                        "lastClassName": "ietrag",
+                        "rules": Array [
+                          "
+  color: ",
+                          "grey",
+                          ";
+",
+                        ],
+                      },
+                      "displayName": "styled.span",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "sc-bxivhb",
+                      "target": "span",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                >
+                  <span
+                    className="sc-bxivhb ietrag"
+                  >
+                    ETH/BTC
+                  </span>
+                </StyledComponent>
+              </styled.span>
+            </div>
+          </StyledComponent>
+        </styled.div>
+        <styled.ul>
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-ifAKCX",
+                  "isStatic": false,
+                  "lastClassName": "bIOwfp",
+                  "rules": Array [
+                    "
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 800px;
+  overflow: auto;
+",
+                  ],
+                },
+                "displayName": "styled.ul",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-ifAKCX",
+                "target": "ul",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+          >
+            <ul
+              className="sc-ifAKCX bIOwfp"
+            >
+              <li>
+                Hello
+              </li>
+            </ul>
+          </StyledComponent>
+        </styled.ul>
+      </div>
     </StyledComponent>
-  </styled.ul>
+  </styled.div>
 </List>
 `;
