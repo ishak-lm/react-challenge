@@ -6,8 +6,8 @@ describe('Colors constants', () => {
   it('should be equal', () => {
     expect(colors).toEqual({
       progressBar: {
-        green: '49, 61, 49',
-        red: '56, 44, 50',
+        green: '20, 30, 19',
+        red: '42, 16, 20',
       },
       text: {
         listElem: '156, 162, 164',
