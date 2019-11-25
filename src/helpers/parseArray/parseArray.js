@@ -1,4 +1,4 @@
-import { sortBy, remove, findIndex } from 'lodash'
+import { orderBy, remove, findIndex } from 'lodash'
 
 const parseArray = (arr, newData, isAsk) => {
   const newArray = arr
@@ -18,12 +18,16 @@ const parseArray = (arr, newData, isAsk) => {
     }
   })
 
-  const sortedArray = sortBy(newArray, e => Number(e[0]))
+  const sortedArray = orderBy(
+    newArray,
+    e => Number(e[0]),
+    isAsk ? 'asc' : 'desc',
+  )
 
   return sortedArray.map(e => [
-    isAsk ? Number(e[1]).toFixed(1) : Number(e[0]).toFixed(5),
-    (total += Number(e[1])).toFixed(1),
     isAsk ? Number(e[0]).toFixed(5) : Number(e[1]).toFixed(1),
+    (total += Number(e[1])).toFixed(1),
+    isAsk ? Number(e[1]).toFixed(1) : Number(e[0]).toFixed(5),
   ])
 }
 
