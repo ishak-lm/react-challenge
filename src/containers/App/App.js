@@ -19,27 +19,26 @@ const App = () => {
   return (
     <S.Container>
       <S.OrderBook>
-        <List title="Ask" pair={kraken.pair[0]}>
-          {ask.length > 0 &&
-            ask.map((e, key) => (
-              <ListItem
-                data={e}
-                key={key}
-                right
-                width={(Number(e[1]) / ask[ask.length - 1][1]) * 100}
-              />
-            ))}
-        </List>
-
         <List title="Bid" pair={kraken.pair[0]}>
           {bid.length > 0 &&
             bid.map((e, key) => (
               <ListItem
                 data={e}
                 key={key}
-                left
+                right
                 color="red"
                 width={(Number(e[1]) / bid[bid.length - 1][1]) * 100}
+              />
+            ))}
+        </List>
+        <List title="Ask" pair={kraken.pair[0]}>
+          {ask.length > 0 &&
+            ask.map((e, key) => (
+              <ListItem
+                data={e}
+                key={key}
+                left
+                width={(Number(e[1]) / ask[ask.length - 1][1]) * 100}
               />
             ))}
         </List>
